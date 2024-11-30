@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product showcase </h1>
+        <select id="category-filter">
+            <option value="all">All</option>
+            <option value="Electronics">Electronics<option>
+            <option value="Furtniture">Furtniture</option>
+        </select>
+    </header>
+    <main>
+        <div class="product-list">
+            <div class="product"data-category="Electronics">
+            <h3 class="product-title">Laptop</h3>
+            <p>$500</p>
+            <button class="btn-add-to-cart">Add to cart</button>
+        </div>
+        <div class="product"data-category="Furtniture">
+            <h3 class="product-title">Chair</h3>
+            <p>$300</p>
+            <button class="btn-add-to-cart">Add to cart</button>
+        </div>
+        <div class="product"data-category="Electronics">
+            <h3 class="product-title">Smartphone</h3>
+            <p>$100</p>
+            <button class="btn-add-to-cart">Add to cart</button>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>@ 2024 Product Showcase</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
